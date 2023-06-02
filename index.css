@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+   
+    
+}
+body{
+    background-image: url(./momentumbg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+   
+}
+.main{
+    
+}
+.link{
+    display: flex;
+    gap: 10px;
+  
+}
+#icon{
+    width: 6px;
+}
+.yde{
+    display: flex;
+    flex-direction: column;
+}
+.myinput{
+    width: 450px;
+    background: none;
+    border: none;
+    font-size: 180%;
+    outline: none;
+    text-align: center;
+    border-bottom: 3px solid #fff;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 2px 20px;
+}
+.ul{
+    display: flex;
+    justify-content: space-between;
+}
+ul li{
+    list-style-type: none;
+}
+
+.main-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    gap: 15px;
+
+}
+.time, .link, .greet, .question, .img-location, .footer-eli, .footer-el, .yde{
+    color: #fff;
+}
+.time{
+    font-size: 5rem;
+}
+.greet{
+    font-size: 3rem;
+    color: #fff;
+}
+.question{
+    font-size: 2rem;
+}
+
+input[type="search"] {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+    width: 500px;
+    height: 30px;
+}
+
+
+.main2{
+    margin: 0px 20px;
+}
+
+.class{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 28vh;
+
+    
+    
+}
+.footer-el{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.img-location{
+
+}
+.footer-eli{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sett{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer-el{
+
+}
+.set{
+   gap: 20px;
+}
